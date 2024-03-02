@@ -23,4 +23,4 @@ Essentials
 * [Download Snapshot](https://oss.sonatype.org/content/repositories/snapshots/org/mybatis/mybatis/)
 *
 *
->《黑马架构师_源码系列-主流框架&中间件》-- MyBatis
+>**《黑马架构师_源码系列-主流框架&中间件》-- MyBatis**
