@@ -42,17 +42,17 @@
       <dataSource type="POOLED">
         <property name="driver" value="com.mysql.cj.jdbc.Driver" />
         <property name="url"
-                  value="jdbc:mysql://192.168.110.128:3306/mybatis?useUnicode=true&amp;characterEncoding=UTF8" />
+                  value="jdbc:mysql://139.155.14.237:40035/mybatis?useUnicode=true&amp;characterEncoding=UTF8" />
         <property name="username" value="root" />
-        <property name="password" value="lilishop" />
+        <property name="password" value="tcduestc" />
       </dataSource>
     </environment>
   </environments>
 
   <!--第二部分：引入映射配置文件-->
   <mappers>
-    <mapper resource="mapper/UserMapper.xml"></mapper>
-    <!--<mapper class="com.itheima.mapper.UserMapper"></mapper>-->
+<!--    <mapper resource="mapper/UserMapper.xml"></mapper>-->
+    <mapper class="com.itheima.mapper.UserMapper"></mapper>
 <!--    <package name="com.itheima.mapper"/>-->
 
   </mappers>
